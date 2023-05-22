@@ -39,22 +39,24 @@
     <!-- MAIN -->
     <main id="main">
 
-        <div class="part-1">
-            <div class="mt-1">
-                <div>
-                    <div id="one">
-                        <h1>MYE Cloud Technologies</h1>
-                        <p>As a strategic partner in your cloud transformation journey, we offer cutting-edge cloud
-                            solutions and unmatched service
-                            and support to to help you modernize and optimize your infrastructure for maximum
-                            performance and efficiency.</p>
+        <div class="parent-curve">
+            <div class="part-1">
+                <div class="mt-1">
+                    <div>
+                        <div id="one">
+                            <h1>MYE Cloud Technologies</h1>
+                            <p>As a strategic partner in your cloud transformation journey, we offer cutting-edge cloud
+                                solutions and unmatched service
+                                and support to to help you modernize and optimize your infrastructure for maximum
+                                performance and efficiency.</p>
+                        </div>
+                        <img src="/public/images/database5.gif" width="400px" height="400px" alt="Database" />
                     </div>
-                    <img src="/public/images/database5.gif" width="400px" height="400px" alt="Database" />
-                </div>
 
-                <div class="buttons">
-                    <button id="request-demo">Request a demo</button>
-                    <button id="learn-more">Learn more</button>
+                    <div class="buttons">
+                        <button id="request-demo">Request a demo</button>
+                        <button id="learn-more">Learn more</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,35 +73,59 @@
             </div>
 
             <div class="services">
+
                 <div class="animate2">
-                    <div class="one"></div>
+                    <div class="parent-curve">
+                        <div class="one"></div>
+                    </div>
                 </div>
-                <div class="two animate3">
-                    <h2 id="title">Personalized Services</h2>
-                    <h4>Our dedication to personalized
-                        service is what sets us apart.</h4>
+                <div class="animate3">
+                    <div class="parent-curve">
+                        <div class="two">
+                            <h2 id="title">A Cloud built by Filipinos,
+                                for Filipinos</h2>
+                            <h4>At the heart of our brand is a
+                                commitment to quality and reliability.</h4>
 
-                    <button>Learn more</button>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="three animate2">
-                    <h2 id="title">A Cloud built by Filipinos,
-                        for Filipinos</h2>
-                    <h4>At the heart of our brand is a
-                        commitment to quality and reliability.</h4>
+                <div class="animate2">
+                    <div class="parent-curve">
+                        <div class="three">
+                            <h2 id="title">A Cloud built by Filipinos,
+                                for Filipinos</h2>
+                            <h4>At the heart of our brand is a
+                                commitment to quality and reliability.</h4>
 
-                    <button>Learn more</button>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="four animate3"></div>
+                <div class="animate3">
+                    <div class="parent-curve">
+                        <div class="four"></div>
+                    </div>
+                </div>
 
-                <div class="five animate2"></div>
-                <div class="six animate3">
-                    <h2 id="title">Powered by cutting-edge
-                        latest cloud technology</h2>
-                    <h4>Our dedication to personalized
-                        service is what sets us apart.</h4>
+                <div class="animate2">
+                    <div class="parent-curve">
+                        <div class="five"></div>
+                    </div>
+                </div>
+                <div class="animate3">
+                    <div class="parent-curve">
+                        <div class="six">
+                            <h2 id="title">A Cloud built by Filipinos,
+                                for Filipinos</h2>
+                            <h4>At the heart of our brand is a
+                                commitment to quality and reliability.</h4>
 
-                    <button>Learn more</button>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -470,6 +496,18 @@
         crossorigin="anonymous"></script>
 
     <!-- CUSTOM SCRIPTS -->
+    <svg style="visibility: hidden;position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
+        version="1.1">
+        <defs>
+            <filter id="parent-curve">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                    result="goo">
+                </feColorMatrix>
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+            </filter>
+        </defs>
+    </svg>
     <script type="module" src="/js/main.js"></script>
     <script type="module" src="/js/index.js"></script>
 

@@ -133,6 +133,7 @@
 
 .services .one {
     margin-right: 10px;
+    margin-left: -20px;
     clip-path: polygon(0 0, 73% 0, 100% 100%, 0% 100%);
     background-color: #fff;
     height: 400px;
@@ -144,6 +145,7 @@
 
 .services .two {
     margin-left: -200px;
+    margin-right: -20px;
     clip-path: polygon(100% 0, 0 0, 21% 100%, 100% 100%);
     background-color: #fff;
     height: 400px;
@@ -220,6 +222,7 @@
 
 .services .three {
     margin-right: -80px;
+    margin-left: -20px;
     clip-path: polygon(0 0, 77% 0, 100% 100%, 0% 100%);
     background-color: #fff;
     height: 400px;
@@ -233,6 +236,7 @@
 
 .services .four {
     margin-left: -100px;
+    margin-right: -20px;
     clip-path: polygon(100% 0, 0 0, 22.5% 100%, 100% 100%);
     background-color: #fff;
     height: 400px;
@@ -245,6 +249,7 @@
 
 .services .five {
     margin-right: 10px;
+    margin-left: -20px;
     clip-path: polygon(0 0, 73% 0, 100% 100%, 0% 100%);
     background-color: #fff;
     height: 400px;
@@ -256,6 +261,7 @@
 
 .services .six {
     margin-left: -200px;
+    margin-right: -20px;
     clip-path: polygon(100% 0, 0 0, 21% 100%, 100% 100%);
     background-color: #fff;
     height: 400px;
@@ -1072,4 +1078,8 @@
 
 .logo:nth-child(10) {
     transition-delay: 2700ms;
+}
+
+.parent-curve {
+    filter: url(#parent-curve);
 }
