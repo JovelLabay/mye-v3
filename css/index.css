@@ -921,9 +921,10 @@
 .part-13 .main .main-news {
     grid-column: span 3;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     flex-direction: column;
+    margin-right: 30px;
 }
 
 .part-13 .main .main-news .image {
@@ -945,16 +946,17 @@
 
 .part-13 .main .news {
     grid-column: span 2;
+    margin-left: -60px;
 }
 
 .part-13 .main .news li {
-    margin: 20px 0;
+    margin-bottom: 10px;
     grid-column: span 2;
     list-style-type: none;
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .part-13 .main .news #news-one .image {
@@ -963,7 +965,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
-    width: 550px;
+    width: 610px;
     border-radius: 20px;
 }
 
